@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+::-webkit-scrollbar {
+    display: none;
+}
+
+.progress-container {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    background: black;
+    width: 0;
+    height: 0.5rem;
+}
+
+form button {
+    border-radius: none;
+}
+
+body {
+    /* text-align: center; */
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.sub {
+    text-align: center;
+    margin: -0.5rem 0 3rem 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.book {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5rem 0;
+}
+
+img {
+    border: 1px solid black;
+}
+
+.detial {
+    text-align: left;
+    margin: auto 0 auto 3rem;
+    width: 50%;
+}
+
+.detial>a {
+    background: rgb(4, 96, 243);
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.main {
+    max-width: 60%;
+    display: block;
+    margin: 1rem auto;
+    position: relative;
+}
+
+footer {
+    position: absolute;
+}
+
+form {
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+form input {
+    width: 70%;
+    height: 3rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+
+@media (max-width: 700px) {
+    .detial {
+        margin: auto 0 auto 0;
+    }
+}
