@@ -58,12 +58,6 @@ const printData = (data) => {
     }
 }
 
-// const eachBook = async (book) => {
-//     const gBook = await getBook();
-//     const bookDetail = await getBookDetail(book.id);
-// }
-
-
 search.addEventListener('submit', e => {
     e.preventDefault();
     const query = search.input.value.trim();
@@ -86,29 +80,8 @@ getBook().then(data => {
     // console.log(e)
 })
 
-
-
-// const printDetail = () => {
-//     book.innerHTML += 
-// `   <div>
-//     <h2>hello</h2>
-//     <p>Discription</p>
-//     <a href="#">Download</a>
-//     </div>
-//     `
-// }
-
-// `
-// <div class="main">
-//     <div>
-//         <img src="${data.image}" alt="">
-//     </div>
-// </div>
-// `
-
 //scroll
 const body = document.querySelector('body');
-const dh = body.height;
 const height = document.body.clientHeight;
 console.log(height);
 window.addEventListener('scroll', () => {
